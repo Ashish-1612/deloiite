@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>
+New Hire Registery</title>
+<link rel=stylesheet href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<style>
+form{
+     margin-left:80px;
+	 margin-top:40px;
+	 background-color:blue;
+}
+</style>
+</head>
+<body>
+<form>
+<div class="row">
+<div class="col-md-6" style="height:200px;">
+<pre>
+First Name  <input />
+Father Name <input /><br>
+Gender:     <input type="radio" name="gender" value="M"> Male        <input type="radio" name="gender" value="F" > Female
+</pre></div>
+<div class="col-md-6" style="height:200px;">
+<pre>
+Last Name   <input />
+Mother Name <input /></pre>
+</div>
+</div>
+<div><pre>
+Address:
+    
+	House No: <input />                           Street: <input />
+	city:     <input />                           State:  <input />
+	country:  <select name="country" multiple>
+	          <option value="" selected>Enter Country</option>
+	          <option value="In">India</option>
+			  <option value="Us">America</option>
+			  <option value="Npl">Nepal</option>
+			  <option value="Eng">England</option>
+			  </select>
+</pre></div>
+<h4>Languages:</h4>
+<pre>
+                <input type="checkbox">English
+                <input type="checkbox">Hindi
+                <input type="checkbox">Punjabi
+                <input type="checkbox">Tamil
+                Email <input />                Password <input type="password" /></pre>
+Resume <input type="file" />
+<center><input type="submit">
+<input type="reset"></center>
+</form>
+</body>
+</html>
