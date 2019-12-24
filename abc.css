@@ -1,10 +1,32 @@
-.re{
-background-color:red;
-color:yellow;
-border-color:black;
+div{
+	background-color:black;
+	color:white;
+	border:solid;
+	border-color:green;	
 }
-#ye{
-	background-color:yellow;
-	color:red;
-	border-color:black;
+.li{
+	float:right;
+    }
+.le{
+	height:500px;
+	width:49.6%;
+	float:left;
 }
+.ri{
+	height:500px;
+	width:49.5%;
+	float:right;
+}
+.down{
+	margin-top:502px;
+	height:200px;
+}
+.up{
+	height:160px;
+	font-size:80px;
+	padding-top:40px;
+	
+}
+	
+	
+	
